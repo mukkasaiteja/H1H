@@ -1,0 +1,78 @@
+body{
+    background-image: url("/download.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+nav{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.item-list{
+    list-style: none;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+.item{
+    display: flex;
+}
+#logo h1{ 
+  color:rgb(255,103,0);
+  font-size: 30px;
+}
+.item-list:hover{
+    color:rgb(255,103,0);
+   
+}
+input{
+    border: 2px solid rgb(255,103,0);
+  
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: transparent;
+    color: white;
+}
+button{
+    padding: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+    background-color: rgb(255,103,0);
+    color: white;
+    width: 100px;
+ 
+}
+input:hover{
+    border: 2px solid rgb(255,103,0);
+    outline: none;
+}
+main{
+    display: flex;
+    
+
+
+}
+#left-side{
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+main h1{
+    font-size: 50px;
+    line-height: 10px;
+}
+#join{
+    padding: 20px;
+        background-color: rgb(255,103,0) ;
+        color: white;
+        border-radius: 10px;
+         outline: none;
+         border: none;
+        width: 200px;
+}
+li,input,button{
+    cursor: pointer;
+}
